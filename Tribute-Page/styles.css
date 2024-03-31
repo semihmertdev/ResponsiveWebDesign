@@ -1,0 +1,89 @@
+/* Temel stil ayarları */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+/* Başlık stil ayarları */
+#title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Ana içerik stil ayarları */
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Metinleri ortala */
+}
+
+/* Biyografi stil ayarları */
+#tribute-info {
+    
+    margin-top: 20px;
+    text-align: center; /* Metinleri sola daya */
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+
+/* Alıntı stil ayarları */
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #444;
+    border-left: 5px solid #007BFF;
+    padding-left: 10px;
+    margin: 50px 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+/* Responsive stil ayarları */
+@media (max-width: 768px) {
+    #title {
+        font-size: 2rem; /* Başlık boyutunu küçült */
+    }
+
+    #main {
+        padding: 10px; /* Ana içerik içindeki boşluğu azalt */
+    }
+
+    li {
+        font-size: 1.2rem; /* Liste öğelerinin boyutunu küçült */
+    }
+
+    blockquote {
+        margin: 30px 0; /* Alıntı boşluğunu azalt */
+    }
+}
